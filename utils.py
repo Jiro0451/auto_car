@@ -110,4 +110,4 @@ def _find_name_in_positions(name, positions):
     if keys_of_position:
         return keys_of_position[0]
 
-    return
+    return None

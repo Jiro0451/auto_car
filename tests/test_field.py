@@ -27,7 +27,7 @@ class TestIsCarNameUsed:
 
         assert result is True
 
-    def test_should_return_true_given_car_name_in_already_exists(self):
+    def test_should_return_true_given_car_name_not_in_use(self):
         test_field = Field(10, 10)
         test_field.add_car("Test Car A", "1 2 N", "FLFRF")
         test_field.add_car("Test Car B", "3 4 W", "FLFRF")
